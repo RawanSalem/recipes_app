@@ -97,7 +97,7 @@ jobs:
       run: composer validate
 
     - name: Check Laravel
-      run: php artisan about
+      run: php artisan --version
 
   security:
     runs-on: ubuntu-latest
